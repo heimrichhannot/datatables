@@ -22,7 +22,7 @@
     "extra": {
         "component": {
             "files": [
-                "/datatables/datatables/media/js/jquery.dataTables.min.js"
+                "datatables/media/js/jquery.dataTables.min.js"
             ]
         }
     },
