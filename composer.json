@@ -3,7 +3,7 @@
     "description": "shim components repo for datatables.",
     "keywords": [
     ],
-    "type": "module",
+    "type": "contao-component",
     "homepage": "https://github.com/heimrichhannot/datatables",
     "license": "LGPL-3.0+",
     "authors": [
@@ -18,13 +18,7 @@
         "issues": "https://github.com/heimrichhannot/datatables/issues"
     },
     "require": {
-    },
-    "extra": {
-        "component": {
-            "files": [
-                "datatables/media/js/jquery.dataTables.min.js"
-            ]
-        }
+        "contao-components/installer": "~1.0"
     },
     "autoload": {
         "classmap": [
